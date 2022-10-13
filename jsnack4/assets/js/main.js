@@ -5,7 +5,7 @@ const listaInvitati = ['Fabio Pacifici', 'Marco Salerno']
 let numeroInvitati= 0
 
 for(let i = 0; i < listaInvitati.length; i++){
-    if(listaInvitati.includes(emailUtente) == false){
+    if(listaInvitati.includes(nomeUtente) == false){
         numeroInvitati++
     }
 }
@@ -14,3 +14,4 @@ if(numeroInvitati == listaInvitati.length){
     alert(`Non sei tra gli invitati`)
 } else {
     alert(`Benvenuto ${nomeUtente}`)
+}
